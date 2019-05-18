@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Carsten König",
+    "classifications": [
+        "Xunit",
+        "Test",
+        "Console",
+        "FsUnit",
+        "Hedghog"
+    ],
+    "identity": "GarciaSoftware.ConsoleTemplate.CSharp",
+    "name": "Simple F# Kata Setup",
+    "shortName": "fsharpKata",
+    "tags": {
+        "language": "F#"
+    },
+    "sourceName": "Template",
+    "sources": [
+        {
+            "source": "./",
+            "target": "./",
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/.git/**"
+            ],
+            "include": "**/*"
+        }
+    ]
+}
